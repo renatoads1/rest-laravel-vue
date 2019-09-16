@@ -26,7 +26,6 @@
         },
         methods:{
             clicou:function(){
-
                  axios
                 .get('http://localhost/api/lol')
                 .then(response => (
